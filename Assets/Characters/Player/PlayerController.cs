@@ -69,6 +69,7 @@ public class PlayerController : EntityController
     {
         if (playerAttack.GetKilled() == 20)
         {
+            playerAttack.SetKilled(0);
             youWonScreen.Trigger();
         }
     }

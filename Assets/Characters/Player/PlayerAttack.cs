@@ -17,4 +17,9 @@ public class PlayerAttack : EntityAttack
     {
         return killed;
     }
+
+    public void SetKilled(int value)
+    {
+        killed = value;
+    }
 }
